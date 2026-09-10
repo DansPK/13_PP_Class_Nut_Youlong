@@ -1,0 +1,11 @@
+[project]
+name = "13-pp-class-nut-youlong"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ollama>=0.6.2",
+    "openai>=3.12.0",
+    "python-dotenv>=1.2.3",
+    "qdrant-client>=1.19.0",
+]

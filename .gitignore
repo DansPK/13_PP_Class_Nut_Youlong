@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Vector store data / local persistence ---
+data/chromadb/
+data/chroma_db/
+chroma_db/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+
+.claude/
+.cursor/
+.windsurf/
+.aider*
+CLAUDE.md
+.github/copilot-instructions.md
+
+# --- Logs ---
+*.log
