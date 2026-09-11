@@ -27,7 +27,7 @@ def generate_answer(question: str, history: list[dict] = None, top_k: int = TOP_
     if history is None:
         history = []
 
-    # 1. Retrieve: find chunks related to the question (unless the caller already has them)
+    # 1. Retrieve: find chunks related to the question 
     if chunks is None:
         chunks = search_chroma(question, top_k=top_k, similarity_threshold=similarity_threshold)
 
