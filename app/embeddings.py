@@ -1,18 +1,9 @@
-"""
-Turn text into vectors using an embedding model.
-
-Both ingestion (embedding chunks) and retrieval (embedding the user's question)
-call this, so they use the same model and never drift apart.
-"""
-import os
 from openai import OpenAI
-
-EMBED_MODEL = os.getenv("EMBED_MODEL")
-
+from config import EMBED_MODEL, OPENAI_BASE_URL, OPENAI_COMPATIBLE_API_KEY
 
 client = OpenAI(
-    base_url=os.getenv("OPENAI_BASE_URL"),
-    api_key=os.getenv("OPENAI_COMPATIBLE_API_KEY", "not-needed"),
+    base_url=OPENAI_BASE_URL,
+    api_key=OPENAI_COMPATIBLE_API_KEY,
 )
 
 

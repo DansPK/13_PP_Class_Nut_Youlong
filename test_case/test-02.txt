@@ -1,0 +1,46 @@
+(13_PP_Class_Nut_Youlong) PS C:\Users\nutyo\Documents\13_PP_Class_Nut_Youlong\app> python.exe main.py
+RAG Chat - ask a question (type 'exit' to quit)
+
+You: How do I configure VPN access as a remote worker?
+
+Retrieved:
+  [Chunk 01] (0.84) 003_Configuring_VPN_Access_for_Remote_Workers.txt: **Configuring VPN Access for Remote Workers**  **Overview**  This article provid...
+  [Chunk 02] (0.73) 003_Configuring_VPN_Access_for_Remote_Workers.txt: address. * If you continue to experience issues, contact the IT helpdesk for fur...
+  [Chunk 03] (0.70) 003_Configuring_VPN_Access_for_Remote_Workers.txt: 2. Run the installer and follow the prompts to install the software. 3. Once in...
+  [Chunk 04] (0.67) 003_Configuring_VPN_Access_for_Remote_Workers.txt: will see a confirmation message indicating that you are connected to the company...
+  [Chunk 05] (0.64) 008_Setting_Up_a_Secure_Wireless_Network.txt: EP or WPA. Ensure that your devices and access points support the chosen protoco...
+  [Chunk 06] (0.64) 008_Setting_Up_a_Secure_Wireless_Network.txt: isolate your main network from potential security risks. Configure the guest net...
+  [Chunk 07] (0.63) 010_Configuring_Email_on_an_Android_Device.txt: your email address and password in the required fields. * Tap "Next" to proceed...
+  [Chunk 08] (0.62) 008_Setting_Up_a_Secure_Wireless_Network.txt: **Step 1: Plan Your Wireless Network**  Before setting up a secure wireless netw...
+
+Bot: To configure VPN access as a remote worker, follow these steps:
+
+1. Install the VPN Client:
+   - Go to the company's software portal and download the VPN client software.
+   - Run the installer and follow the prompts to install the software.
+   - Once installed, launch the VPN client software.
+
+2. Configure the VPN Connection:
+   - In the VPN client software, click on "New Connection" and select "Company VPN" as the connection type.
+   - Enter the company's VPN server address: `vpn.company.com`.
+   - Enter your company login credentials (username and password).
+   - Select the "Save" button to save the connection settings.
+
+3. Establish the VPN Connection:
+   - Click on the "Connect" button to establish the VPN connection.
+   - You may be prompted to authenticate with two-factor authentication (2FA). Follow the prompts to complete 2FA.
+   - Once connected, you will see a confirmation message indicating that you are connected to the company VPN.
+
+4. Verify VPN Connection:
+   - Open a web browser and navigate to `company.com`.
+   - You should be able to access company resources, such as email, intranet, and file shares.
+   - Verify that your device's IP address has changed to a company-assigned IP address.
+
+Security Reminders:
+- Always keep your VPN client software up-to-date.
+- Never share your login credentials with anyone.
+- Avoid using public Wi-Fi or unsecured networks to access company resources via VPN.
+
+If you encounter issues, ensure your device meets the minimum system requirements and has a stable internet connection. If problems persist, contact the IT helpdesk for further assistance
+[03] 003_Configuring_VPN_Access_for_Remote_Workers.txt.
+----------------------------------------

@@ -1,0 +1,35 @@
+RAG Chat - ask a question (type 'exit' to quit)
+
+You: How do I reset a forgotten PIN?
+
+Retrieved:
+  [Chunk 01] (0.83) 002_Resetting_a_Forgotten_PIN.txt: **Resetting a Forgotten PIN**  If you have forgotten your PIN, you can reset it...
+  [Chunk 02] (0.83) 002_Resetting_a_Forgotten_PIN.txt: dicating that your PIN has been successfully reset. 2. Click the "OK" button to...
+  [Chunk 03] (0.74) 002_Resetting_a_Forgotten_PIN.txt: ty question. Enter your answer in the required field. 2. Click the "Next" button...
+  [Chunk 04] (0.67) 009_Resetting_a_Jammed_Printer.txt: **Resetting a Jammed Printer**  **Step 1: Turn Off the Printer**  Immediately tu...
+  [Chunk 05] (0.65) 007_Troubleshooting_Issues_with_Company-Issued_Tablets.txt: Clear the app's cache and data. * Restart the app to see if the issue is resolv...
+  [Chunk 06] (0.60) 007_Troubleshooting_Issues_with_Company-Issued_Tablets.txt: date**. * Check for available software updates and install any pending updates....
+  [Chunk 07] (0.59) 009_Resetting_a_Jammed_Printer.txt: fer to the manufacturer's troubleshooting guide or contact the IT helpdesk for f...
+  [Chunk 08] (0.59) 009_Resetting_a_Jammed_Printer.txt: to the manufacturer's instructions. Make sure it clicks securely into place.  **...
+
+Bot: To reset a forgotten PIN, follow these steps:
+
+1. Go to the company's intranet homepage and click on the "IT Support" link at the top right corner of the page.
+2. Click on the "Self-Service" tab and then select "PIN Reset" from the drop-down menu.
+3. You will be redirected to the PIN Reset Tool login page.
+4. Enter your company username and password in the required fields, then click the "Login" button to authenticate.
+5. You will be prompted to answer your security question. Enter your answer in the required field and click the "Next" button to proceed.
+6. Enter a new PIN in the required field. The PIN must be at least 8 characters long and contain a mix of uppercase and lowercase letters, numbers, and special characters.
+7. Re-enter your new PIN in the confirmation field to ensure accuracy.
+8. Click the "Reset PIN" button to complete the process.
+9. You will receive a confirmation message indicating that your PIN has been successfully reset. Click the "OK" button to close the message.
+
+Important Notes:
+- If you are unable to reset your PIN using the self-service tool, please contact the IT Helpdesk for assistance.
+- It is recommended to keep your PIN confidential and not share it with anyone.
+- You can reset your PIN a maximum of 3 times in a 24-hour period. If you exceed this limit, you will need to contact the IT Helpdesk to reset your PIN.
+
+By following these steps, you should be able to reset your forgotten PIN and regain access to company systems and applications. If you encounter any issues during the process, please do not hesitate to reach out to the IT Helpdesk for further assistance.
+
+[02] 002_Resetting_a_Forgotten_PIN.txt
+----------------------------------------

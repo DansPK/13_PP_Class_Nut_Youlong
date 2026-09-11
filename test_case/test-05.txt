@@ -1,0 +1,11 @@
+(13_PP_Class_Nut_Youlong) PS C:\Users\nutyo\Documents\13_PP_Class_Nut_Youlong\app> python.exe main.py
+RAG Chat - ask a question (type 'exit' to quit)
+
+You: What is the CEO's home address?
+
+Retrieved:
+  [Chunk 01] (0.57) 003_Configuring_VPN_Access_for_Remote_Workers.txt: address. * If you continue to experience issues, contact the IT helpdesk for fur...
+  [Chunk 02] (0.57) 010_Configuring_Email_on_an_Android_Device.txt: ce. It may be on the home screen or in the app drawer. * Tap on the Email app to...
+
+Bot: I don't have enough information in the documents to answer that.
+----------------------------------------

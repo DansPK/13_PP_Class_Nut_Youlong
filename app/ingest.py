@@ -1,16 +1,10 @@
 """
-Stage 1 of the pipeline: turn raw files in data/ into searchable vectors.
-
-Flow: load files
+Loads raw documents from data folder
 """
 
 from pathlib import Path
 from typing import List, Tuple
-
-# __file__ is the path to *this* Python file.
-# .resolve() parent goes up one directory (app/ -> project root)
-BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
+from config import DATA_DIR
 
 
 

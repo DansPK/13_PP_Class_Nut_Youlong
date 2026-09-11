@@ -1,0 +1,30 @@
+(13_PP_Class_Nut_Youlong) PS C:\Users\nutyo\Documents\13_PP_Class_Nut_Youlong\app> python.exe main.py
+RAG Chat - ask a question (type 'exit' to quit)
+
+You: What should I do if the printer is jammed?
+
+Retrieved:
+  [Chunk 01] (0.84) 009_Resetting_a_Jammed_Printer.txt: **Resetting a Jammed Printer**  **Step 1: Turn Off the Printer**  Immediately tu...
+  [Chunk 02] (0.83) 009_Resetting_a_Jammed_Printer.txt: fer to the manufacturer's troubleshooting guide or contact the IT helpdesk for f...
+  [Chunk 03] (0.79) 009_Resetting_a_Jammed_Printer.txt: or sliding it open. This will give you access to the internal mechanisms.  **St...
+  [Chunk 04] (0.74) 009_Resetting_a_Jammed_Printer.txt: to the manufacturer's instructions. Make sure it clicks securely into place.  **...
+  [Chunk 05] (0.62) 007_Troubleshooting_Issues_with_Company-Issued_Tablets.txt: is free from debris. * Try using a different charging cable or power source.  *...
+  [Chunk 06] (0.60) 004_Troubleshooting_Issues_with_Microsoft_Office.txt: **Troubleshooting Issues with Microsoft Office**  This article provides steps to...
+  [Chunk 07] (0.60) 007_Troubleshooting_Issues_with_Company-Issued_Tablets.txt: **Troubleshooting Issues with Company-Issued Tablets**  This article provides st...
+  [Chunk 08] (0.60) 007_Troubleshooting_Issues_with_Company-Issued_Tablets.txt: date**. * Check for available software updates and install any pending updates....
+
+Bot: If the printer is jammed, follow these steps:
+
+1. Turn off the printer by pressing the power button located on the top or front of the device.
+2. Open the printer’s access panel (usually found on the top, front, or back) by pressing the release latch or sliding it open to gain access to internal mechanisms.
+3. Carefully inspect the internal components and identify any jammed paper. Gently pull out visible paper scraps or torn pieces, being cautious not to touch sensitive parts with oily skin.
+4. Check for obstructions in the paper path, including the paper tray, rollers, and print head. Remove any dust, dirt, or debris that may be contributing to the jam.
+5. If the paper tray was dislodged during the jam, realign it according to the manufacturer’s instructions and ensure it clicks securely into place.
+6. Check and clean the print head for blockages or dried ink using a lint-free cloth or cotton swab, following the manufacturer's guidelines.
+7. Reassemble the printer in reverse order of disassembly, ensuring all panels and doors are securely closed.
+8. Turn the printer back on and test it by printing a test page or document. If issues persist, refer to the manufacturer’s troubleshooting guide or contact the IT helpdesk for further assistance.
+
+Additional tips include regularly cleaning and maintaining the printer, using high-quality paper, avoiding overloading the paper tray, and seeking professional help if unsure or if problems continue [09] 009_Resetting_a_Jammed_Printer.txt. 
+
+[09] 009_Resetting_a_Jammed_Printer.txt
+----------------------------------------

@@ -1,6 +1,7 @@
 """
-Text chunking strategies for splitting documents into manageable pieces.
+Splits each document into small chunks, using a Recursive splitting strategy
 """
+
 
 # paragraph breaks, line breaks, sentence endings, words,
 # then finally individual characters if nothing else made a piece small enough
@@ -9,7 +10,7 @@ SEPARATORS = ["\n\n", "\n", ". ", " ", ""]
 
 def merge_pieces(pieces: list[str], chunk_size: int, separator: str) -> list[str]:
     """
-    put small pieces back together into one chunk, up to chunk_size.
+    put pieces back together into one chunk, up to chunk_size.
     """
     chunks = []
     current = ""
@@ -18,10 +19,13 @@ def merge_pieces(pieces: list[str], chunk_size: int, separator: str) -> list[str
         candidate = current + separator + piece if current else piece
 
         if len(candidate) <= chunk_size:
+            # current piece fits within the chunk size, so add it to the current chunk
             current = candidate
+
         else:
             if current:
                 chunks.append(current)
+
             current = piece
     if current:
         chunks.append(current)

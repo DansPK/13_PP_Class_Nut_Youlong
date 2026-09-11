@@ -1,35 +1,30 @@
 """
-The whole app, end to end, exposed as plain Python functions.
-No framework magic, just plain functions wired together.
+Simple CLI chat app for the RAG pipeline.
+Type a question, get an answer. Type 'exit' to quit.
 """
-import logging
 
-logging.getLogger("chromadb.telemetry.product.posthog").setLevel(logging.CRITICAL)
+from pipeline import ask
+from retrieval import search_chroma
+from config import TOP_K, SIMILARITY_THRESHOLD
 
-from app.generate import generate_answer
-from app.ingest import build_index
-from app.retrieval import retrieve
+print("RAG Chat - ask a question (type 'exit' to quit)")
 
+history = []
 
-def ingest() -> dict:
-    """
-    (Re)build the vector index from everything in data/.
+while True:
+    question = input("\nYou: ")
 
-    Returns:
-        Dictionary with chunks_indexed count
-    """
-    pass
+    if question.lower() in ("exit", "quit"):
+        break
 
+    chunks = search_chroma(question, top_k=TOP_K, similarity_threshold=SIMILARITY_THRESHOLD)
 
-def chat(question: str, top_k: int | None = None) -> dict:
-    """
-    The full retrieve -> augment -> generate loop for one question.
+    print("\nRetrieved:")
+    for i, chunk in enumerate(chunks, start=1):
+        preview = chunk["text"][:80].replace("\n", " ").strip()
+        print(f"  [Chunk {i:02d}] ({chunk['similarity']:.2f}) {chunk['source']}: {preview}...")
 
-    Args:
-        question: The user's question
-        top_k: Number of chunks to retrieve
+    print("\nBot: ", end="")
+    answer, history, chunks = ask(question, history=history, stream=True, chunks=chunks)
 
-    Returns:
-        Dictionary with answer and sources
-    """
-    pass
+    print("-" * 40)
