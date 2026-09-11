@@ -1,0 +1,45 @@
+(13_PP_Class_Nut_Youlong) PS C:\Users\nutyo\Documents\13_PP_Class_Nut_Youlong\app> python.exe main.py                           
+RAG Chat - ask a question (type 'exit' to quit)
+
+You: How do I set up a conference call on Cisco Webex?
+
+Retrieved:
+  [Chunk 01] (0.92) 005_Setting_Up_a_Conference_Call_on_Cisco_Webex.txt: To set up a conference call on Cisco Webex, follow these steps:  **Step 1: Log i...
+  [Chunk 02] (0.82) 005_Setting_Up_a_Conference_Call_on_Cisco_Webex.txt: ure clear audio. * Use the "Share" feature to share your screen or presentations...
+  [Chunk 03] (0.82) 005_Setting_Up_a_Conference_Call_on_Cisco_Webex.txt: type. You can also choose to allow participants to join via phone or VoIP.  **St...
+  [Chunk 04] (0.72) 005_Setting_Up_a_Conference_Call_on_Cisco_Webex.txt: e a link to join the meeting, as well as dial-in information for audio-only part...
+  [Chunk 05] (0.60) 008_Setting_Up_a_Secure_Wireless_Network.txt: EP or WPA. Ensure that your devices and access points support the chosen protoco...
+  [Chunk 06] (0.59) 003_Configuring_VPN_Access_for_Remote_Workers.txt: will see a confirmation message indicating that you are connected to the company...
+  [Chunk 07] (0.58) 010_Configuring_Email_on_an_Android_Device.txt: ce. It may be on the home screen or in the app drawer. * Tap on the Email app to...
+  [Chunk 08] (0.58) 003_Configuring_VPN_Access_for_Remote_Workers.txt: address. * If you continue to experience issues, contact the IT helpdesk for fur...
+
+Bot: To set up a conference call on Cisco Webex, follow these steps:
+
+1. Log in to Cisco Webex by opening a web browser and navigating to [company Webex URL]. Enter your company login credentials to access the Webex portal.
+
+2. Click on the "Meetings" tab and select "Schedule a Meeting" from the drop-down menu. Fill in the required information, including:
+   - Meeting topic
+   - Start and end time
+   - Duration
+   - Invitees (add email addresses or names from the company directory)
+
+3. In the "Audio" section, select "Cisco Webex Audio" as the default audio type. You can also choose to allow participants to join via phone or VoIP.
+
+4. If you want to enable video conferencing, click on the "Video" tab and select "Cisco Webex Video" as the default video type. You can also choose to allow participants to join via video.
+
+5. Optionally, add an agenda and notes to the meeting invitation by clicking on the "Agenda" tab. This information will be visible to all invitees.
+
+6. Click "Schedule" to send the meeting invitation to all invitees. The invitation will include a link to join the meeting, as well as dial-in information for audio-only participants.
+
+7. At the scheduled start time, click on the "Start" button to begin the conference call. As the host, you will be prompted to enter your audio and video settings before joining the meeting.
+
+Tips and Best Practices:
+- Test your audio and video settings before the meeting to ensure a smooth experience.
+- Encourage invitees to join 5–10 minutes early to troubleshoot any technical issues.
+- Use the "Mute" feature to minimize background noise and ensure clear audio.
+- Use the "Share" feature to share your screen or presentations with participants.
+
+If you encounter issues, try restarting your browser or checking your internet connection. For audio or video problems during the meeting, restart your settings or contact the IT helpdesk for assistance [05] 005_Setting_Up_a_Conference_Call_on_Cisco_Webex.txt.
+
+[05] 005_Setting_Up_a_Conference_Call_on_Cisco_Webex.txt
+----------------------------------------
